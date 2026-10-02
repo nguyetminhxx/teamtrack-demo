@@ -4,7 +4,7 @@ import db
 PWD = generate_password_hash("123456")
 
 USERS = [
-    ("maianh.k63@neu.edu.vn", "Trần Mai Anh", "Mai Anh", "22020145", "ĐH Kinh tế Quốc dân (NEU)", "Trưởng nhóm", 5, 420, 98),
+    ("maianh.k62@neu.edu.vn", "Trần Mai Anh", "Mai Anh", "22020145", "ĐH Kinh tế Quốc dân (NEU)", "Trưởng nhóm", 5, 420, 98),
     ("long.nh@neu.edu.vn", "Nguyễn Hoàng Long", "Hoàng Long", "22020188", "ĐH Kinh tế Quốc dân (NEU)", "Thành viên - Số liệu", 3, 380, 96),
     ("trang.lt@neu.edu.vn", "Lê Thu Trang", "Thu Trang", "22020210", "ĐH Kinh tế Quốc dân (NEU)", "Thành viên - Slide", 4, 360, 100),
     ("minh.vd@neu.edu.vn", "Vũ Đức Minh", "Đức Minh", "22020099", "ĐH Kinh tế Quốc dân (NEU)", "Thành viên - Design", 2, 290, 88),

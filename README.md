@@ -82,10 +82,10 @@ cp .env.example .env
 
 | Họ tên | Email | Vai trò | Mật khẩu |
 |---|---|---|---|
-| Trần Mai Anh | maianh.k62@neu.edu.vn | Trưởng nhóm | 123456 |
-| Nguyễn Hoàng Long | long.nh@neu.edu.vn | Thành viên (số liệu) | 123456 |
-| Lê Thu Trang | trang.lt@neu.edu.vn | Thành viên (slide) | 123456 |
-| Vũ Đức Minh | minh.vd@neu.edu.vn | Thành viên (design) | 123456 |
+| Trần Mai Anh | maianh.k62@ftu.edu.vn | Trưởng nhóm | 123456 |
+| Nguyễn Hoàng Long | long.nh@ftu.edu.vn | Thành viên (số liệu) | 123456 |
+| Lê Thu Trang | trang.lt@ftu.edu.vn | Thành viên (slide) | 123456 |
+| Vũ Đức Minh | minh.vd@ftu.edu.vn | Thành viên (design) | 123456 |
 
 > Chỉ **Trưởng nhóm** mới chỉnh được công thức Contribution (nút apply sẽ khóa với thành viên thường).
 

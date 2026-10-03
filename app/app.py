@@ -55,7 +55,6 @@ def now_str():
 
 def require_login(next_name):
     user = db.query_one("SELECT * FROM users WHERE id=%s", (session.get("uid"),))
-        print("DEBUG login:", repr(email), repr(user["password"]) if user else None, repr(password), flush=True)
     if not user:
         flash("Vui lòng đăng nhập để tiếp tục.")
         return None, redirect(url_for("login", next=next_name))

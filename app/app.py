@@ -152,7 +152,8 @@ def login():
         email = (request.form.get("email") or "").strip().lower()
         password = request.form.get("password") or ""
         user = db.query_one("SELECT * FROM users WHERE email=%s", (email,))
-        if not user or user["password"] != password:
+        ok = user and (user["password"] == password or check_password_hash(user["password"], password))
+if not ok:
             flash("Email hoặc mật khẩu không đúng.")
             return redirect(url_for("login"))
         session["uid"] = user["id"]
